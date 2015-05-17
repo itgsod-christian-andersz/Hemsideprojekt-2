@@ -1,35 +1,28 @@
 body {
-    /*background-image: url("../img/skola_bakrundsbild.JPG");*/
     height: 100%;
     width: 100%;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #e9eaed;
 }
-
-#backgrundsbild {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    max-height: 75px;
-}
-
 
 #header {
     background: #0EC5CC;
     height: 170px;
     width: 100%;
+    border: 1px solid;
+    border-color: #47B7C9 #00D9FC;
 }
 
 #logo_box {
-    background: white;
+    background: #F8FCFC;
     height: 220px;
     width: 235px;
-    margin-left: 98px;
+    margin-left: 60px;
     float: left;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
 
 #logo {
@@ -38,11 +31,10 @@ body {
 
 #namn_header {
     height: 70px;
-    width: 380px;
     background-color: #0EC5CC;
-    float: right;
+    float: left;
     margin-top: 45px;
-    margin-right: 5px;
+    margin-left: 20px;
 }
 
 /* Hover animation*/
@@ -88,6 +80,7 @@ body {
 
 #namn {
     float: left;
+    position: absolute;
 }
 
 #header2 {
@@ -100,27 +93,251 @@ body {
     margin-top: 52px;
 }
 
+
          #hem {
-            margin-left: -20px;
+             margin-left: -30px;
+             position: absolute;
         }
 
         #program {
-            margin-left: 5px;
-        }
-
-        #mer_info {
-            margin-left: 5px;
+            position: absolute;
+            margin-left: 50px;
         }
 
         #om_oss {
-            margin-left: 5px;
+            position: absolute;
+            margin-left: 215px;
+        }
+
+        #kontakta {
+            position: absolute;
+            margin-left: 340px;
         }
 
 #container {
-    background: #e5e5e5;
-    width: 86%;
-    height: 1000px;
+    background: #ffffff;
+    width: 94%;
+    height: 1100px;
     margin-top: 110px;
-    margin-left: 98px;
-    border: solid black 5px;
+    margin-left: 40px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+div#container h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+div#container p{
+    font-size: 22px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Gjorde om koden */
+
+/*#program_1 {*/
+    /*height: 290px;*/
+    /*width: 37%;*/
+    /*background-color: #E0E4E5;*/
+    /*margin-left: 100px;*/
+    /*margin-top: 100px;*/
+    /*float: left;*/
+    /*border: 1px solid;*/
+    /*border-color: #e5e6e9 #dfe0e4 #d0d1d5;*/
+/*}*/
+
+/*#program_2 {*/
+    /*height: 290px;*/
+    /*width: 37%;*/
+    /*background-color: #E0E4E5;*/
+    /*margin-left: 115px;*/
+    /*margin-top: 100px;*/
+    /*float: left;*/
+    /*border: 1px solid;*/
+    /*border-color: #e5e6e9 #dfe0e4 #d0d1d5;*/
+/*}*/
+
+/*#program_3 {*/
+    /*height: 290px;*/
+    /*width: 37%;*/
+    /*background-color: #E0E4E5;*/
+    /*margin-left: 100px;*/
+    /*margin-top: 100px;*/
+    /*float: left;*/
+    /*border: 1px solid;*/
+    /*border-color: #e5e6e9 #dfe0e4 #d0d1d5;*/
+/*}*/
+
+/*#program_4 {*/
+    /*height: 290px;*/
+    /*width: 37%;*/
+    /*background-color: #E0E4E5;*/
+    /*margin-left: 115px;*/
+    /*margin-top: 100px;*/
+    /*float: left;*/
+    /*border: 1px solid;*/
+    /*border-color: #e5e6e9 #dfe0e4 #d0d1d5;*/
+/*}*/
+
+/*#program_5 {*/
+    /*height: 290px;*/
+    /*width: 37%;*/
+    /*background-color: #E0E4E5;*/
+    /*margin-left: 100px;*/
+    /*margin-top: 100px;*/
+    /*float: left;*/
+    /*border: 1px solid;*/
+    /*border-color: #e5e6e9 #dfe0e4 #d0d1d5;*/
+/*}*/
+
+/*#program_6 {*/
+    /*height: 290px;*/
+    /*width: 37%;*/
+    /*background-color: #E0E4E5;*/
+    /*margin-left: 115px;*/
+    /*margin-top: 100px;*/
+    /*float: left;*/
+    /*border: 1px solid;*/
+    /*border-color: #e5e6e9 #dfe0e4 #d0d1d5;*/
+/*}*/
+
+div#container2 div{
+    height: 290px;
+    width: 37%;
+    background-color: #E0E4E5;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+#container2 {
+    background: #ffffff;
+    width: 94%;
+    height: 1200px;
+    margin-top: 110px;
+    margin-left: 40px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+div#container2 h1{
+    text-align: center;
+    font: 40px bold 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+div#container2 p{
+    font: 18px 'Open Sans', sans-serif;
+    margin: 15px 45px;
+}
+
+#container_skola {
+    width: 1000px;
+    margin: 4em;
+    height: 200px;
+    border: 2px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+#bild_rektor {
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+    float: left;
+}
+
+#rektor {
+    margin-left: 3em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 80px;
+    border: 2px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:;
+}
+
+div#rektor ul {
+    font-size: 15px;
+    margin-left: -30px;
+}
+
+#namn_rektor {
+    margin-bottom: 5px;
+}
+
+#older {
+    margin-bottom: 5px;
+  }
+
+#favoritratt {
+    margin-bottom: 5px;
+}
+
+#kontakta_oss {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 5em;
+    margin-top: 105px;
+    border: 2px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+div#kontakta_oss h3 {
+    text-align: center;
+}
+
+div#kontakta_oss ul {
+    margin: 1em;
+    font-size: 20px;
+}
+
+#telefonnr {
+    margin: 7px;
+}
+
+#email {
+    margin: 7px;
+}
+
+#adress {
+    margin: 7px;
+}
+
+#karta {
+    margin-left: 13em;
+}
+
+#container_bottom {
+    width: 100%;
+    height: 170px;
+    background-color: #0EC5CC;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: #47B7C9 #00D9FC;
+
+}
+
+#namn_bottom {
+    margin-left: 50px;
+    margin-top: 40px;
 }
