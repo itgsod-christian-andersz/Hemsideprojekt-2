@@ -239,7 +239,7 @@ div#container2 p{
 }
 
 #skola_header {
-
+    margin-left: 22%;
 }
 
 #container_skola {
@@ -343,4 +343,32 @@ div#kontakta_oss ul {
 #namn_bottom {
     margin-left: 50px;
     margin-top: 40px;
+}
+
+@media (max-width: 1200px) {
+    #logo_box, #namn {
+        display: none;
+    }
+
+    #karta {
+        display: none;
+    }
+
+    #container2 {
+        overflow: scroll;
+    }
+
+    div#container2 div {
+        height: 310px;
+        width: 70%;
+    }
+
+    #container_skola {
+        overflow: scroll;
+        height: 60%;
+    }
+
+    #skola_header {
+        display: none;
+    }
 }
